@@ -9,7 +9,7 @@ with open('HISTORY.md') as history_file:
 
 
 setup_args = dict(
-    name='sabeel-test-pypi',
+    name='jasmal-test-pypi',
     version='0.0.2',
     description='Useful tools to work with test',
     long_description_content_type="text/markdown",
@@ -17,10 +17,10 @@ setup_args = dict(
     license='MIT',
     packages=find_packages(),
     author='Sabeel K M',
-    author_email='sabeelmuttil@gmail.com',
+    author_email='jasmaljaizz@gmail.com',
     keywords=['test', 'testpypi', 'testSearch'],
-    url='https://github.com/sabeelmuttil/test-pypi',
-    download_url='https://pypi.org/project/sabeel-test-pypi/'
+    url='https://github.com/jasmalTK/pythonPackage',
+    download_url='https://pypi.org/project/jasmal-test-pypi/'
 )
 
 install_requires = []
