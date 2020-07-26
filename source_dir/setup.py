@@ -1,28 +1,14 @@
-from setuptools import setup
+from distutils.core import setup
 
-
-def readme():
-	with open('README.md') as f:
-		return f.read()
-
-
-setup(name='myDemo',
-	version='0.0.1',
-	description='Demo Project',
-	long_description=readme(),
-	long_description_content_type='text/markdown',
-	classifers=[
-		'Development Status :: 5 - Production/Stable',
-		'License :: OSI Approved :: MIT License',
-		'Programming Language :: Python :: 3',
-		'Operating System :: OS Independent'
-	],
-	url='https://github.com/jasmalTK/pythonPackage.git',
-	author='',
-	author_email='',
-	keywords='core package',
-	license='MIT',
-	packages=['myDemo'],
-	install_requires=[],
-	include_package_data=True,
-	zip_safe=False)
+setup(
+    name = 'pythonPackage',
+    packages = ['pythonPackage'],
+    version = 'v1.0',  # Ideally should be same as your GitHub release tag varsion
+    description = 'description',
+    author = '',
+    author_email = '',
+    url = 'github package source url',
+    download_url = 'https://github.com/jasmalTK/pythonPackage/archive/pythonPackage.tar.gz',
+    keywords = ['tag1', 'tag2'],
+    classifiers = [],
+)
